@@ -1,0 +1,78 @@
+.twitter{
+    position: relative;
+    left: 176px;
+    bottom: 74px;
+}
+
+#facebook{
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    left: 700px;
+    top: 970px;
+}
+
+#facebook::after{
+    content: "del";
+    font-size: smaller;
+    margin-left: 5px;
+}
+
+#twitter{
+    background-color: #1DA1F2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    left: 805px;
+    top: 970px;
+}
+
+#twitter::after{
+    content: "twitter";
+    font-size: smaller;
+    margin-left: 5px;
+}
+
+#email{
+    background-color: lightgray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    left: 910px;
+    top: 970px;
+}
+
+#email::after{
+    content: "email";
+    font-size: smaller;
+    margin-left: 5px;
+}
+
+.jakob{
+    position: relative;
+    bottom: 60px;
+    left: 75px;
+}
+.jakob-email{
+    position: absolute;
+    bottom: 112px;
+    left: 95px;
+}
+
+.profil{
+    width: 50px;
+    display: inline-block
+}

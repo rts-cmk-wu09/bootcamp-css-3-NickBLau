@@ -1,0 +1,18 @@
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 3px solid gainsboro;
+    border-bottom: 3px solid gainsboro;
+
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.nav-links a:last-of-type{
+    color: red;
+}

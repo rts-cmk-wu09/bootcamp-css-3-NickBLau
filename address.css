@@ -1,0 +1,22 @@
+address{
+    width: 1515px;
+    text-align: center;
+    margin: 0 auto 5px;
+
+    background-color: lightgray;
+    gap: 10px;
+    border: 2px solid whitesmoke;
+}
+
+
+
+address p{
+    white-space: break-spaces;
+}
+
+address button{
+font-size: large;
+padding: 10px;
+color: gray;
+font-weight: bold;
+}
