@@ -38,3 +38,7 @@ aside{
     color: black;
     font-weight: bolder;
 }
+
+.main-paragraph{
+    display: flex;
+}

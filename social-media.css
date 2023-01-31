@@ -60,3 +60,19 @@
     font-size: smaller;
     margin-left: 5px;
 }
+
+.jakob{
+    position: relative;
+    bottom: 60px;
+    left: 75px;
+}
+.jakob-email{
+    position: absolute;
+    bottom: 112px;
+    left: 95px;
+}
+
+.profil{
+    width: 50px;
+    display: inline-block
+}
