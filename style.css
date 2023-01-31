@@ -33,13 +33,9 @@
 }
 
 
-.main{
-    margin-top: 100px;
-}
 
-.red{
-    color: red;
-}
+
+
 
 #read{
     margin-left: 23%;
@@ -73,11 +69,7 @@
     left: 95px;
 }
 
-.twitter{
-    position: relative;
-    left: 176px;
-    bottom: 74px;
-}
+
 
 .z-index p:nth-of-type(4){
 
@@ -131,62 +123,7 @@
     color: red;
 }
 
-#facebook{
-    background-color: darkblue;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 25px;
-    position: absolute;
-    left: 700px;
-    top: 970px;
-}
 
-#facebook::after{
-    content: "del";
-    font-size: smaller;
-    margin-left: 5px;
-}
-
-#twitter{
-    background-color: #1DA1F2;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 25px;
-    position: absolute;
-    left: 805px;
-    top: 970px;
-}
-
-#twitter::after{
-    content: "twitter";
-    font-size: smaller;
-    margin-left: 5px;
-}
-
-#email{
-    background-color: lightgray;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 25px;
-    position: absolute;
-    left: 910px;
-    top: 970px;
-}
-
-#email::after{
-    content: "email";
-    font-size: smaller;
-    margin-left: 5px;
-}
 
 section article aside{
     width: 300px;
@@ -199,12 +136,8 @@ section article p{
     justify-content: center;
 }
 
-.flex{display: flex;}
 
-.flex-column{
-    display: flex;
-    flex-direction: column;
-}
+
 
 .aside-articles{
     margin-left: 20%;
@@ -270,9 +203,7 @@ address{
     border: 2px solid whitesmoke;
 }
 
-.white_space{
-    white-space:break-spaces;
-}
+
 
 address p{
     white-space: break-spaces;
