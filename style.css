@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    box-sizing: border-box;
+}
+
+img{
+    width: 150px;
+    max-width: 100%;
+}
+
+header{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* nav{
+    width: 500px;
+    
+    margin: auto;
+} */
+
+.menu{
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 3px solid gainsboro;
+    border-bottom: 3px solid gainsboro;
+
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.nav-links a:last-of-type{
+    color: red;
+}
+
+.log-in{
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.ad{
+    width: 700px;
+    height: 150px;
+    margin: 15px auto;
+    background-color: lightgray;
+    
+}
+
+
+main{
+    margin: auto;
+    width: 50%;
+    display: flex;
+    margin-left: 17%;
+    flex-direction: row-reverse;
+}
+
+main img{
+    width: 500px;
+}
+
+aside{
+    margin-top: 250px;
+    display: inline-block
+}
+
+.main_aside{
+    /* text-align: right; */
+    position: relative;
+    bottom: 70px;
+    font-size: smaller;
+    text-align: start;
+}
+
+.main_aside i{
+    float: left;
+}
+
+.main{
+    border-bottom: solid 1px gray;
+    position: relative;
+    bottom: 28px;
+    padding: 5px;
+    color: black;
+    font-weight: bolder;
+}
+
+
+
+.flex section{
+    margin-left: 5%;
+}
+
+.z-index{
+    position: absolute;
+    z-index: 10;
+    left: 180px;
+    top: 750px;
+}
+
+
+.main{
+    margin-top: 100px;
+}
+
+.red{
+    color: red;
+}
+
+#read{
+    margin-left: 23%;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.subscription{
+    background-color: whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    height: 100px;
+    margin-top: -55px;
+    padding: 50px;
+    opacity: 0.8;
+}
+
+.subscription p{
+    padding-top: 40px;
+}
+
+.subscription button{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: none;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+.subscription-button{
+    position: relative;
+    right: 22%;
+    top: 35px;
+}
+
+.avis_img{
+    margin-top: -30px;
+}
+
+.profil{
+    width: 50px;
+    display: inline-block
+}
+
+.z-index i:last-of-type{
+    float: left;
+}
+
+.jakob{
+    position: relative;
+    bottom: 60px;
+    left: 75px;
+}
+.jakob-email{
+    position: absolute;
+    bottom: 112px;
+    left: 95px;
+}
+
+.twitter{
+    position: relative;
+    left: 176px;
+    bottom: 74px;
+}
+
+.z-index p:nth-of-type(4){
+
+    position: relative;
+    bottom: 50px;
+}
+
+.z-index p:nth-of-type(5){
+
+    position: relative;
+    bottom: 44px;
+    left: 30px;
+}
+.z-index i:nth-of-type(1){
+    position: absolute;
+    left: 70px;
+    top: 30px;
+    background-color: gray;
+    color: white;
+    font-size: large;
+    padding: 2px;
+    border-radius: 8px;
+}
+.z-index i:nth-of-type(2){
+    position: relative;
+    left: 150px;
+    bottom: 53px;
+    background-color: cyan;
+    color: white;
+    font-size: large;
+    padding: 2px;
+    border-radius: 8px;
+}
+.z-index i:nth-of-type(3){
+    margin-top: -45px;
+    background-color: gray;
+    color: white;
+    font-size: large;
+    padding: 2px;
+    border-radius: 8px;}
+
+.z-index i:nth-of-type(4){
+    position: absolute;
+    background-color: darkblue;
+    left: 100px;
+}    
+
+.udland{
+    position: relative;
+    bottom: 25px;
+    color: red;
+}
+
+#facebook{
+    background-color: darkblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    left: 700px;
+    top: 970px;
+}
+
+#facebook::after{
+    content: "del";
+    font-size: smaller;
+    margin-left: 5px;
+}
+
+#twitter{
+    background-color: #1DA1F2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    left: 805px;
+    top: 970px;
+}
+
+#twitter::after{
+    content: "twitter";
+    font-size: smaller;
+    margin-left: 5px;
+}
+
+#email{
+    background-color: lightgray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 25px;
+    position: absolute;
+    left: 910px;
+    top: 970px;
+}
+
+#email::after{
+    content: "email";
+    font-size: smaller;
+    margin-left: 5px;
+}
+
+section article aside{
+    width: 300px;
+    border-top: 1px gray solid;
+}
+
+section article p{
+    width: 500px;
+    margin: auto;
+    justify-content: center;
+}
+
+.flex{display: flex;}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-articles{
+    margin-left: 20%;
+    
+}
+
+.aside-articles section{
+    width: 20%;
+    margin: 15px;
+    border-top: 1px gray solid;
+}
+
+.articles{
+    width: 50%;
+    margin-left: 300px;
+}
+
+.main-paragraph{
+    display: flex;
+}
+
+.links-E_avis{
+    background-color: lightgray;
+    width: 1510px;
+    height: auto;
+    display: flex;
+
+    
+    
+}
+
+.links-E_avis button{
+    background-color: gray;
+    align-self: center;
+
+    
+    
+}
+
+.comments{
+    border-top: lightgray 2px solid;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.anbefal{
+    margin-top: 10px;
+}
+
+/* .links-Eavis ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+} */
+
+address{
+    width: 1515px;
+    text-align: center;
+    margin: 0 auto 5px;
+
+    background-color: lightgray;
+    gap: 10px;
+    border: 2px solid whitesmoke;
+}
+
+.white_space{
+    white-space:break-spaces;
+}
+
+address p{
+    white-space: break-spaces;
+}
+
+address button{
+font-size: large;
+padding: 10px;
+color: gray;
+font-weight: bold;
+}
+
+#search{
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
