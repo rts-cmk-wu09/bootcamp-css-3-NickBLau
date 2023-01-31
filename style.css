@@ -1,23 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 
-body, html{
-    box-sizing: border-box;
-}
 
-img{
-    width: 150px;
-    max-width: 100%;
-}
 
-header{
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
 /* nav{
     width: 500px;
@@ -25,45 +8,13 @@ header{
     margin: auto;
 } */
 
-.menu{
-    display: flex;
-    width: 100px;
-    justify-content: space-between;
-}
 
-.nav-links{
-    list-style: none;
-    display: flex;
-    justify-content: space-evenly;
-    border-top: 3px solid gainsboro;
-    border-bottom: 3px solid gainsboro;
 
-}
 
-.nav-links a{
-    text-decoration: none;
-    color: black;
-    font-weight: bolder;
-}
 
-.nav-links a:last-of-type{
-    color: red;
-}
 
-.log-in{
-    background-color: white;
-    border: none;
-    color: black;
-    font-weight: bolder;
-}
 
-.ad{
-    width: 700px;
-    height: 150px;
-    margin: 15px auto;
-    background-color: lightgray;
-    
-}
+
 
 
 main{
