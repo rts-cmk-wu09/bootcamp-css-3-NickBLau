@@ -1,0 +1,29 @@
+.subscription{
+    background-color: whitesmoke;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    height: 100px;
+    margin-top: -55px;
+    padding: 50px;
+    opacity: 0.8;
+}
+
+.subscription p{
+    padding-top: 40px;
+}
+
+.subscription button{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: none;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+.subscription-button{
+    position: relative;
+    right: 22%;
+    top: 35px;
+}
