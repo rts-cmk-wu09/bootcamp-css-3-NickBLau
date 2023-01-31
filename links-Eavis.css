@@ -1,0 +1,41 @@
+.links-E_avis{
+    background-color: lightgray;
+    width: 1510px;
+    height: auto;
+    display: flex;
+
+    
+    
+}
+
+.links-E_avis button{
+    background-color: gray;
+    align-self: center;
+
+    
+    
+}
+
+.comments{
+    border-top: lightgray 2px solid;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.anbefal{
+    margin-top: 10px;
+}
+
+/* .links-Eavis ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+} */
+
+
+
+#search{
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
